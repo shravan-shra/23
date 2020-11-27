@@ -1,0 +1,42 @@
+body,html{
+	margin:0;
+	padding: 0;
+	width: 100%;
+
+}
+
+body{
+	background: url(friend.jpg);
+	background-size: cover;
+	font-family: "Times New Roman";
+}
+
+.container{
+	width: 100%;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
+.container h1{
+	text-transform: uppercase;
+	font-size: 60px;
+	margin: 20px;
+	letter-spacing: 10px;
+}
+
+.sai {
+ position: fixed;
+ bottom: 0vh;
+ color: red;
+ font-size: 2rem;
+ animation: fall 3s linear forwards;
+}
+
+@keyframes fall {
+  to {top:0; transform: translateY(-200vh);}
+}
+
